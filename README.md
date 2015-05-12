@@ -40,8 +40,9 @@ be found in its python docstring.
 The following is a short example to capture an image and show it as 
 a pylab image from a ipython console (ipython -pylab).
 
-
+```python
    import ueye
    a=ueye.Cam()     # Get the first available cam
    b=a.GrabImage()  # Grab an image
    imshow(b)
+```
